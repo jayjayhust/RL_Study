@@ -25,6 +25,20 @@ pip install gym
   目标策略：我们选什么样更新方式，去寻找最好的Q表
 
   </details>
+
+  <details><summary><strong>MDP(Markov Decision Process)</strong></summary>
+
+  ‌马尔可夫决策过程（Markov Decision Process, MDP）‌是一种用于描述智能体在随机环境中做出决策的数学模型。它基于马尔可夫链（马尔可夫链‌是一种特殊的随机过程，具有“无记忆”的性质，即未来的状态仅与当前状态有关，而与过去的状态无关。这种特性被称为马尔可夫性质。‌），并在此基础上引入了动作和策略，使得模型能够更准确地反映智能体与环境交互的过程。MDP的核心要素包括状态（S）、动作（A）、策略（π）和奖励（R），以及折扣因子（γ）。
+
+  </details>
+
+  <details><summary><strong>Bellman方程</strong></summary>
+
+  贝尔曼方程（Bellman Equation），也称作‌动态规划方程（Dynamic Programming Equation），是动态规划方法能够达到最佳化的必要条件。
+
+  贝尔曼方程将“决策问题在特定时间的值”以“来自初始选择的报酬与从初始选择衍生的决策问题的值”的形式表示。通过这种方式，动态最佳化问题被分解成简单的子问题，这些子问题遵循贝尔曼提出的“最佳化还原理”。
+
+  </details>
 - 常见算法
   <details><summary><strong>Q-Learning</strong></summary>
 
