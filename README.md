@@ -53,6 +53,10 @@ pip install gym
   特点：不需要环境的动态模型，可以直接从与环境的交互中学习（自我思考：这里是优点也是缺点！如果环境是动态变化的，则训练效果可能并不好，训练结果并不收敛）。
   应用场景：适用于离散状态和动作空间的问题。
 
+  <div align="center">
+  <img width="700" src="./images/Q-learning.png">
+  </div>
+
   </details>
 
   <details><summary><strong>SARSA(State-Action-Reward-State-Action)</strong></summary>
