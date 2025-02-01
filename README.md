@@ -22,3 +22,45 @@ pip install gym
   Q-learning的主要优势就是使用了时间差分法（融合了蒙特卡洛和动态规划）能够进行off-policy的学习，使用贝尔曼方程可以对马尔科夫过程求解最优策略。
 
   </details>
+
+  <details><summary><strong>SARSA(State-Action-Reward-State-Action)</strong></summary>
+
+  待补充
+
+  </details>
+
+  <details><summary><strong>Deep Q-Network(DQN)</strong></summary>
+
+  待补充
+
+  </details>
+
+  <details><summary><strong>Policy Gradients</strong></summary>
+
+  待补充
+
+  </details>
+
+  <details><summary><strong>Actor-Critic</strong></summary>
+
+  待补充
+
+  </details>
+
+  <details><summary><strong>Asynchronous Advantage Actor-Critic(A3C)</strong></summary>
+
+  待补充
+
+  </details>
+
+  <details><summary><strong>Proximal Policy Optimization(PPO)</strong></summary>
+
+  待补充
+
+  </details>
+
+  <details><summary><strong>Q-Learning</strong></summary>
+
+  待补充
+
+  </details>
