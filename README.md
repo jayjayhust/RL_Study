@@ -58,9 +58,3 @@ pip install gym
   待补充
 
   </details>
-
-  <details><summary><strong>Q-Learning</strong></summary>
-
-  待补充
-
-  </details>
