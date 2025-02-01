@@ -8,7 +8,7 @@ pip install gym
 
 ## 参考教程
 - 视频教程
-  - [Gymnasium (Deep) Reinforcement Learning](https://www.youtube.com/playlist?list=PL58zEckBH8fCt_lYkmayZoR9XfDCW9hte)[代码](https://github.com/johnnycode8/gym_solutions)
+  - [Gymnasium (Deep) Reinforcement Learning](https://www.youtube.com/playlist?list=PL58zEckBH8fCt_lYkmayZoR9XfDCW9hte) [代码](https://github.com/johnnycode8/gym_solutions)
   - 很好的图文解释RL视频系列：[Reinforcement Learning from scratch](https://www.youtube.com/watch?v=vXtfdGphr3c)
 
 ## 概念学习
