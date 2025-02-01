@@ -54,7 +54,7 @@ pip install gym
   应用场景：适用于离散状态和动作空间的问题。
 
   <div align="center">
-  <img width="700" src="./images/Q-learning.png">
+  <img width="700" src="./images/Q-learning.jpg">
   </div>
 
   </details>
