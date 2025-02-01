@@ -13,7 +13,7 @@ pip install gym
 
 ## 概念学习
 - 基本概念
-  <details><summary><strong>Q-Learning</strong></summary>
+  <details><summary><strong>[Q-Learning](https://blog.csdn.net/qq_74722169/article/details/136822961)</strong></summary>
 
   Q-learning（或者叫Q-networks、Value networks）是一种经典的强化学习算法，用于解决马尔可夫决策过程（Markov Decision Process，MDP）中的控制问题。它是基于值迭代（Value Iteration）的思想，通过估计每个状态动作对的价值函数Q值来指导智能体在每个状态下选择最佳的动作。
   
