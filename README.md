@@ -29,7 +29,7 @@ pip install gym
 
   </details>
 
-  <details><summary><strong>Deep Q-Network(DQN)</strong></summary>
+  <details><summary><strong>DQN(Deep Q-Network)</strong></summary>
 
   待补充
 
@@ -47,13 +47,13 @@ pip install gym
 
   </details>
 
-  <details><summary><strong>Asynchronous Advantage Actor-Critic(A3C)</strong></summary>
+  <details><summary><strong>A3C(Asynchronous Advantage Actor-Critic)</strong></summary>
 
   待补充
 
   </details>
 
-  <details><summary><strong>Proximal Policy Optimization(PPO)</strong></summary>
+  <details><summary><strong>PPO(Proximal Policy Optimization)</strong></summary>
 
   待补充
 
