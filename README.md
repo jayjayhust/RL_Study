@@ -106,6 +106,14 @@ pip install gym
 
   </details>
 
+  <details><summary><strong>DDPG(Deep Deterministic Policy Gradient)</strong></summary>
+
+  简介：Deep Deterministic Policy Gradient (DDPG)算法是DeepMind团队提出的一种专门用于解决连续控制问题的在线式(on-line)深度强化学习算法，它其实本质上借鉴了Deep Q-Network (DQN)算法里面的一些思想。
+  特点：DDPG算法是Actor-Critic (AC) 框架下的一种在线式深度强化学习算法，因此算法内部包括Actor网络和Critic网络，每个网络分别遵从各自的更新法则进行更新，从而使得累计期望回报最大化。
+  应用场景：适用于连续控制问题比如机器人的姿态控制等场景。
+
+  </details>
+
 ## 自我思考
   <details><summary><strong>强化学习与深度学习的差异</strong></summary>
 
@@ -132,4 +140,4 @@ pip install gym
 
 ## Interesting Stuffs
   - [Teaching Robots to Walk w/ Reinforcement Learning](https://www.youtube.com/watch?v=6qbW7Ki9NUc) [代码](https://github.com/Sentdex/TD3-Bittle) [硬件: Petoi Bittle robot](https://www.petoi.com/pages/bittle-smart-robot-dog-model-overview)
-  - [Deep Reinforcement Learning for Walking Robots(Matlab)](https://www.youtube.com/watch?v=6DL5M9b2j6I)
+  - [Deep Reinforcement Learning for Walking Robots(Matlab with DDPG)](https://www.youtube.com/watch?v=6DL5M9b2j6I)
