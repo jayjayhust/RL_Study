@@ -8,9 +8,9 @@ pip install gym
 
 ## 参考教程
 - 视频教程
-  - [Gymnasium (Deep) Reinforcement Learning](https://www.youtube.com/playlist?list=PL58zEckBH8fCt_lYkmayZoR9XfDCW9hte) [代码](https://github.com/johnnycode8/gym_solutions)
-  - 很好的图文解释RL视频系列：[Reinforcement Learning from scratch](https://www.youtube.com/watch?v=vXtfdGphr3c)
-  - 中文系列教程（涵盖各类算法）：[什么是强化学习? (Reinforcement Learning)](https://www.youtube.com/watch?v=NVWBs7b3oGk&list=PLXO45tsB95cJYKCSATwh1M4n8cUnUv6lT)
+  - L1: [Gymnasium (Deep) Reinforcement Learning](https://www.youtube.com/playlist?list=PL58zEckBH8fCt_lYkmayZoR9XfDCW9hte) [代码](https://github.com/johnnycode8/gym_solutions)
+  - L2: 很好的图文解释RL视频系列：[Reinforcement Learning from scratch](https://www.youtube.com/watch?v=vXtfdGphr3c)
+  - L3: 中文系列教程（涵盖各类算法）：[什么是强化学习? (Reinforcement Learning)](https://www.youtube.com/watch?v=NVWBs7b3oGk&list=PLXO45tsB95cJYKCSATwh1M4n8cUnUv6lT) [代码](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)
 
 ## 概念学习
 - 基本概念
