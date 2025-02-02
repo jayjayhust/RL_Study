@@ -6,7 +6,8 @@ Black rectangles:       hells       [reward = -1].
 Yellow bin circle:      paradise    [reward = +1].
 All other states:       ground      [reward = 0].
 
-This script is the environment part of this example. The RL is in RL_brain.py.
+This script is the environment part of this example.
+The RL is in RL_brain.py.
 
 View more on my tutorial page: https://morvanzhou.github.io/tutorials/
 """
@@ -15,7 +16,6 @@ View more on my tutorial page: https://morvanzhou.github.io/tutorials/
 import numpy as np
 import time
 import sys
-import random
 if sys.version_info.major == 2:
     import Tkinter as tk
 else:
@@ -129,28 +129,7 @@ class Maze(tk.Tk, object):
         return s_, reward, done
 
     def render(self):
-        time.sleep(0.1)
+        time.sleep(0.05)
         self.update()
 
 
-def update():
-    for t in range(10):
-        s = env.reset()
-        while True:
-            env.render()
-            # a = 1
-            a = random.choice([0, 1, 2, 3])
-            print(a)
-            s, r, done = env.step(a)
-            if done:
-                break
-            print("running...")
-    
-    # end of game
-    print('game over')
-    env.destroy()
-
-if __name__ == '__main__':
-    env = Maze()
-    env.after(100, update)
-    env.mainloop()

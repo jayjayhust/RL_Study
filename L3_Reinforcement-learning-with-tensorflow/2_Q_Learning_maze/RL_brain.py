@@ -15,7 +15,7 @@ class QLearningTable:
         self.lr = learning_rate
         self.gamma = reward_decay
         self.epsilon = e_greedy
-        self.q_table = pd.DataFrame(columns=self.actions, dtype=np.float64)
+        self.q_table = pd.DataFrame(columns=self.actions, dtype=np.float64)  # 建立已经定义了横坐标（行为）的空q_table，纵坐标为状态
 
     def choose_action(self, observation):
         self.check_state_exist(observation)
@@ -41,7 +41,6 @@ class QLearningTable:
 
     def check_state_exist(self, state):
         if state not in self.q_table.index:
-            # append new state to q table
             # append new state to q table using concat instead of append
             self.q_table = pd.concat([
                 self.q_table,
