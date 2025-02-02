@@ -141,3 +141,5 @@ pip install gym
 ## Interesting Stuffs
   - [Teaching Robots to Walk w/ Reinforcement Learning](https://www.youtube.com/watch?v=6qbW7Ki9NUc) [代码](https://github.com/Sentdex/TD3-Bittle) [硬件: Petoi Bittle robot](https://www.petoi.com/pages/bittle-smart-robot-dog-model-overview)
   - [Deep Reinforcement Learning for Walking Robots(Matlab with DDPG)](https://www.youtube.com/watch?v=6DL5M9b2j6I)
+  - [Robotic Arm Manipulation with Reinforcement Learning(Pytorch, TD3, and Robosuite)](https://www.youtube.com/watch?v=z1Lnlw2m8dg&list=PLOkmXPXHDP22VQmr37DFuJr6k30setQ2w)
+  - [Autonomous Navigation with Deep Reinforcement Learning Using ROS2](https://www.youtube.com/watch?v=KEObIB7RbH0)
