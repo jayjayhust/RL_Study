@@ -130,3 +130,6 @@ pip install gym
 
   </details>
 
+## Interesting Stuffs
+  - [Teaching Robots to Walk w/ Reinforcement Learning](https://www.youtube.com/watch?v=6qbW7Ki9NUc) [代码](https://github.com/Sentdex/TD3-Bittle) [硬件: Petoi Bittle robot](https://www.petoi.com/pages/bittle-smart-robot-dog-model-overview)
+  - [Deep Reinforcement Learning for Walking Robots(Matlab)](https://www.youtube.com/watch?v=6DL5M9b2j6I)

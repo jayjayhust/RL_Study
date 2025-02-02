@@ -9,6 +9,7 @@ while q learning is more brave because it only cares about maximum behaviour.
 
 from maze_env import Maze
 from RL_brain import SarsaLambdaTable
+import time
 
 
 def update():
@@ -22,6 +23,7 @@ def update():
         # initial all zero eligibility trace
         RL.eligibility_trace *= 0
 
+        step_count = 0
         while True:
             # fresh env
             env.render()
@@ -39,8 +41,15 @@ def update():
             observation = observation_
             action = action_
 
+            print(f"Step {step_count}, reward:{round(reward)}")
+            step_count += 1
             # break while loop when end of this episode
             if done:
+                if reward == 1:
+                    print("Win")
+                else:
+                    print("Fail")
+                time.sleep(5)
                 break
 
     # end of game
