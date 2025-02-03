@@ -143,3 +143,22 @@ pip install gym
   - [Deep Reinforcement Learning for Walking Robots(Matlab with DDPG)](https://www.youtube.com/watch?v=6DL5M9b2j6I)
   - [Robotic Arm Manipulation with Reinforcement Learning(Pytorch, TD3, and Robosuite)](https://www.youtube.com/watch?v=z1Lnlw2m8dg&list=PLOkmXPXHDP22VQmr37DFuJr6k30setQ2w)
   - [Autonomous Navigation with Deep Reinforcement Learning Using ROS2](https://www.youtube.com/watch?v=KEObIB7RbH0)
+
+## 日常碰到的实际问题建模
+  <details><summary><strong>机械手末端执行器抓取物体（离散控制方案，用Q-learning实现）</strong></summary>
+
+  - 建模思路：为了简化问题，可以将机械手末端执行器抓取物体的过程抽象为一个马尔可夫决策过程（Markov Decision Process, MDP）。
+  在这个模型中，状态可以定义为机械手的当前位置、姿态，环境为机械手可以操作的物理空间，动作可以是机械手的移动、旋转等操作。
+  奖励函数可以根据抓取物体的成功与否来定义，例如，当物体被抓到时给予正奖励（比如100），否则每步给予负奖励（-1）。游戏终止条件为
+  物体被抓取成功或者步数超过100步。  
+  为了简化行为空间，机械手的移动、旋转等操作这里从连续控制简化为离散控制，即动作空间为有限个可能的移动、旋转方向，
+  比如移动方向有上、下、左、右、(上、下)1cm*N，旋转方向有顺时针10度*N、逆时针10度*N等。  
+  为了简化状态空间，我们把三维空间划分成网格，每个格子的坐标为一个状态。
+  为了简化终止条件，机械手到达物体所在的格子定义为被抓取成功、终止本次训练回合。
+
+
+
+
+
+
+  </details>
